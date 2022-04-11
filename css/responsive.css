@@ -1,0 +1,186 @@
+@media screen and (min-width: 1200px){}
+
+
+@media screen and (min-width: 320px) and (max-width: 992px){
+	.headerTop p {
+		margin-left: auto;
+	}
+	.logo {
+		margin-left: 25px;
+	}
+	.logo img {
+		width: 180px !important;
+	}
+	.menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: -15px;
+		background-color: #f09509;
+		width: 75%;
+		z-index: 1;
+		text-align: left;
+	}
+	.menu li {
+		padding: 15px;
+	}
+	.menu li:hover a, .subMenu li:hover a, .subMenu2 li:hover a{
+		color: #fff;
+	}
+	.menu-bar i {
+		display: block;
+	}
+	.galMenu:hover .subMenu{
+		z-index: 1;
+		left: 0px;
+		min-width: 100%;
+		top: 60%;
+	}
+	.termsMenu:hover .subMenu2 {
+		z-index: 1;
+		left: 0px;
+		min-width: 100%;
+		top: 80%;
+	}
+	.galMenu:hover .subMenu, .termsMenu:hover .subMenu2 {
+		background-color: #f09509;
+	}
+	ul.slides{
+		height: 460px;
+	}
+	ul.slides .carousel-dots{
+		bottom: 15px; 
+	}
+	.sectOne .box {
+		width: 50%;
+	}
+	.foodBox {
+		width: 50%;
+	}
+	.foodBox-left {
+		width: 100%;
+		height: 500px;
+	}
+	.foodBox-cont {
+		left: 28%;
+	}
+	.sectOne .mainBox, .featureCont, .productCont {
+		flex-wrap: wrap;
+	}
+	.sectOne .box, .foodBox {
+		flex: 0 0 48%;
+		margin-right: 10px;
+		margin-top: 25px;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 768px){
+	.headerTop {
+		padding: 13px 15px;
+	}
+	.headingTop {
+		display: none;
+	}
+	.menuRight .button {
+		display: none;
+	}
+	ul.slides{
+		height: 358px;
+	}
+	.bannerLogo {
+		width: 180px !important;
+	}
+	.banCont h2 {
+		font-size: 40px;
+	}
+	.boxCont h3 {
+		font-size: 24px;
+	}
+	.foodBox-cont h3 {
+		font-size: 30px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.foodBox-cont {
+   		left: 22%;
+	}
+	.footerTop {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.address {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+	.footerLeft{
+		width: 50%;
+	}
+	 .footerRight, .footerMenu {
+		width: 100%;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.footerCont {
+		flex-direction: column;
+	}
+	h2{
+		font-size: 32px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 520px){
+	.headerTop p {
+		font-size: 10px;
+	}
+	.logo {
+		width: 80px;
+		height: auto;
+	}
+	.menuRight a button {
+		padding: 7px 10px;
+		font-size: 8px;
+	}
+	ul.slides {
+    	height: 243px;
+	}
+	.button, .loadButton {
+		padding: 10px 20px;
+		font-size: 12px;
+	}
+	.banCont h2 {
+    	font-size: 30px;
+	}
+	.sectOne .box, .foodBox {
+		flex: 0 0 100%;
+		margin-right: 0px;
+	}
+	.sectOne .box {
+		width: 100%;
+	}
+	.foodBox {
+    	width: 100%;
+	}
+	h2{
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	ul.slides {
+    	height: 198px;
+	}
+	h2{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 375px){
+	ul.slides {
+    	height: 175px;
+	}
+	h2{
+		font-size: 20px;
+	}
+}
